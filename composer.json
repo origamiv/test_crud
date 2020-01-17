@@ -1,0 +1,16 @@
+{
+    "name": "yourresult/microservices",
+    "type": "library",
+    "description": "Microservice frame by YourResult",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.0",
+        "vlucas/phpdotenv": ">3.0",
+        "ruckusing/ruckusing-migrations": ">=1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourResult\\": "src/"
+        }
+    }
+}
